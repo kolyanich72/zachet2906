@@ -60,7 +60,7 @@ class Store:
                 else:
                     print('регистрация нового пользователя')
 
-                    password = input("пароль \n")
+                    password = input("пароль\n")
                     user = users.User(login, password)
                 return user
             except ValueError:

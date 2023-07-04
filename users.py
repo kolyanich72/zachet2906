@@ -82,7 +82,7 @@ class User:
         return f"username: {self._username} "
 
     def __repr__(self):
-        return f" user id:{self._id} username:{self._username} password: <password>"  # {self._password}"
+        return f" user id:{self._id} username:{self._username} password: <password>"
 
     @property
     def get_username(self):

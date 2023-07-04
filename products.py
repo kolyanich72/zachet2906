@@ -41,7 +41,7 @@ class Product:
         return f"id: {self._id}, name: {self.__name}, price: {self._price}, rating: {self._rating}"
 
     def __str__(self):
-        return f"id: {self._id}  name: {self.__name}, price: {self._price}"
+        return f"id: {self._id}  автошины: {self.__name}, цена: {self._price}"
 
     @property
     def prod_name(self):
